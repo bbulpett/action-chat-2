@@ -30,6 +30,8 @@ gem 'jbuilder', '~> 2.0'
 # Use Unicorn as the app server
 # gem 'unicorn'
 
+# Authentication with Devise
+gem 'devise'
 # Actually I want puma for the app server because it needs to be multi-threaded
 gem 'puma'
 # Redis is an extremely fast, atomic key-value store.
